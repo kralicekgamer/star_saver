@@ -1,8 +1,10 @@
-# star_saver
+# Star Saver
 
 A colorful animated night sky for your terminal, written in Python.
 
 The screen shows stars, occasional diagonal meteors, the current time in the top-right corner, and a random English IT message at the bottom. Press any key to exit.
+
+Displayed messages from https://github.com/garuda-linux/startpage-v2/blob/main/src/app/jokes/jokes.ts
 
 ## Requirements
 
@@ -52,6 +54,3 @@ python3 -m venv .venv
 python -m pip install -e .
 python -m pytest
 ```
-
-
-https://github.com/garuda-linux/startpage-v2/blob/main/src/app/jokes/jokes.ts
