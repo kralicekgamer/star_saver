@@ -43,6 +43,7 @@ fi
 
 "$VENV_DIR/bin/python" -m pip install --upgrade pip >/dev/null
 "$VENV_DIR/bin/python" -m pip install --upgrade "$REPO_DIR"
+cp "$REPO_DIR/messages.txt" "$VENV_DIR/messages.txt"
 
 cat > "$WRAPPER" <<EOF
 #!/bin/sh
