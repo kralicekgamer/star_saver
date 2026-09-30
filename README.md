@@ -6,27 +6,13 @@ The screen shows stars, occasional diagonal meteors, the current time in the top
 
 Displayed messages from https://github.com/garuda-linux/startpage-v2/blob/main/src/app/jokes/jokes.ts
 
-## Requirements
-
-- Linux terminal
-- Python 3.10 or newer
-- Git
-
 ## Install
 
-From a cloned checkout:
-
 ```sh
-./install.sh
+curl -s https://raw.githubusercontent.com/kralicekgamer/star_saver/refs/heads/main/install.sh | bash
 ```
 
 The installer creates an isolated environment in `$HOME/.local/share/star_saver` and installs the command as `$HOME/.local/bin/star_saver`. Add `$HOME/.local/bin` to your `PATH` if the installer tells you to.
-
-To use another installation directory:
-
-```sh
-STAR_SAVER_INSTALL_DIR="$HOME/.local/share/star_saver-dev" ./install.sh
-```
 
 ## Run
 
@@ -38,19 +24,8 @@ Press any key to return to the shell. `Ctrl-C` is also handled safely.
 
 ## Uninstall
 
-Run this from the same checkout:
-
 ```sh
-./uninstall.sh
+curl -s https://raw.githubusercontent.com/kralicekgamer/star_saver/refs/heads/main/uninstall.sh | bash
 ```
 
-The uninstall script removes the wrapper and the selected installation directory.
-
-## Development
-
-```sh
-python3 -m venv .venv
-. .venv/bin/activate
-python -m pip install -e .
-python -m pytest
-```
+The uninstall script removes the wrapper and the installation directory.
