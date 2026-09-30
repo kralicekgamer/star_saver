@@ -4,7 +4,9 @@ A colorful animated night sky for your terminal, written in Python.
 
 The screen shows stars, occasional diagonal meteors, the current time in the top-right corner, and a random English IT message at the bottom. Press any key to exit.
 
-Displayed messages from https://github.com/garuda-linux/startpage-v2/blob/main/src/app/jokes/jokes.ts
+Displayed messages from: 
+- https://github.com/garuda-linux/startpage-v2/blob/main/src/app/jokes/jokes.ts
+- https://github.com/sameerkumar18/geek-joke-api
 
 ## Install
 
