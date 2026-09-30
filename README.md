@@ -9,7 +9,7 @@ Displayed messages from https://github.com/garuda-linux/startpage-v2/blob/main/s
 ## Install
 
 ```sh
-curl -s https://raw.githubusercontent.com/kralicekgamer/screen_saver/refs/heads/main/install.sh | bash
+curl -s https://raw.githubusercontent.com/kralicekgamer/star_saver/refs/heads/main/install.sh | bash
 ```
 
 The installer creates an isolated environment in `$HOME/.local/share/star_saver` and installs the command as `$HOME/.local/bin/star_saver`. Add `$HOME/.local/bin` to your `PATH` if the installer tells you to.
@@ -25,7 +25,7 @@ Press any key to return to the shell. `Ctrl-C` is also handled safely.
 ## Uninstall
 
 ```sh
-curl -s https://raw.githubusercontent.com/kralicekgamer/screen_saver/refs/heads/main/uninstall.sh | bash
+curl -s https://raw.githubusercontent.com/kralicekgamer/star_saver/refs/heads/main/uninstall.sh | bash
 ```
 
 The uninstall script removes the wrapper and the installation directory.
